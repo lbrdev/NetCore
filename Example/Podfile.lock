@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.7.1)
+  - NetCore (1.0.1):
+    - Alamofire
+    - OHHTTPStubs/Swift
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+
+DEPENDENCIES:
+  - NetCore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - OHHTTPStubs
+
+EXTERNAL SOURCES:
+  NetCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  NetCore: 69d210865d43138b6c2d82a375ec0f8a1c9b3ef9
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+
+PODFILE CHECKSUM: 6135bbeca1a41ac9ed99c898bca35d6e3b0205f5
+
+COCOAPODS: 1.12.1

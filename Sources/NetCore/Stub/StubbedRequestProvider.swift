@@ -8,7 +8,6 @@
 import Alamofire
 import Combine
 import Foundation
-import OHHTTPStubsSwift
 import OHHTTPStubs
 
 public class StubbedRequestProvider: RequestService {
