@@ -65,7 +65,7 @@ public class StubbedRequestProvider: RequestService {
         }
         let urlString = url?.absoluteString ?? ""
 
-        stub(condition: isHost(host)) { _ in
+        HTTPStubs.stubRequests(passingTest: { $0.url?.host == host }) { _ in
             switch route.stubDataType {
             case let .fromFile(name):
                 let path = OHPathForFile(name, type(of: self))

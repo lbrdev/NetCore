@@ -28,7 +28,7 @@ let package = Package(
             name: "NetCore",
             dependencies: [
                 "Alamofire",
-                .product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs")
+                .product(name: "OHHTTPStubs", package: "OHHTTPStubs")
             ]
         )
     ]

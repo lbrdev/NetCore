@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.7.1)
-  - NetCore (1.0.1):
+  - NetCore (1.0.2):
     - Alamofire
     - OHHTTPStubs/Swift
   - OHHTTPStubs/Core (9.1.0)
@@ -31,9 +31,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
-  NetCore: 69d210865d43138b6c2d82a375ec0f8a1c9b3ef9
+  NetCore: d720be7b39a486d1e01293a9f5da5997c893cc0f
   OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
 
-PODFILE CHECKSUM: 6135bbeca1a41ac9ed99c898bca35d6e3b0205f5
+PODFILE CHECKSUM: 93931aabe0208cae51cc269ee161860bcc6309ab
 
 COCOAPODS: 1.12.1

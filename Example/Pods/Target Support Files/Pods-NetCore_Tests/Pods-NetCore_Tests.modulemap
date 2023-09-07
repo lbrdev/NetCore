@@ -1,0 +1,6 @@
+framework module Pods_NetCore_Tests {
+  umbrella header "Pods-NetCore_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

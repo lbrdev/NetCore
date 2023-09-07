@@ -7,7 +7,6 @@
 
 import Alamofire
 import Foundation
-import OHHTTPStubs
 
 public protocol Routable {
     var method: Alamofire.HTTPMethod { get }
