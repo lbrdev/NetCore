@@ -1,6 +1,5 @@
 //
 //  ApiConfig.swift
-//  Swanly
 //
 //  Created by Ihor Kandaurov on 04.07.2023.
 //

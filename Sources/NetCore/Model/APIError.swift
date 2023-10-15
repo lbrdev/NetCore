@@ -11,7 +11,6 @@ import Foundation
 public struct APIError: Error {
     public let statusCode: Int?
     public let afError: AFError?
-    /// Ошибка, возвращенная нашим собственным сервером ``Swanly``
     public let sError: SError?
     public let decodingError: DecodingError?
 
